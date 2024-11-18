@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basics: A Beginner's Guide to Web Development</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        input, textarea, select, button {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>HTML BASIC TUTORIAL </h1>
+</header>
+
+<section>
+    <h2>Introduction to HTML</h2>
+    <p>HTML (Hypertext Markup Language) is the standard language used to create and design webpages. It consists of a series of elements that structure content on the web. Each element is enclosed in "tags" that tell the browser how to display content.</p>
+    <p>This tutorial will help you get started with the basics of HTML.</p>
+
+    
+   
+</section>
+
+<section>
+   
+    <h2>Sample Data Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Joylene</td>
+                <td>17</td>
+                <td>Manila</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section>
+    <h2>HTML Form</h2>
+    <div class="form-container">
+        <form action="submit_form.php" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required placeholder="Enter your age">
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required placeholder="Write your message"></textarea>
+
+            <label for="country">Select your country:</label>
+            <select id="country" name="country">
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="Philippines">Philippines</option>
+                <option value="Australia">Australia</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section>
+
+<section>
+    <h2>Simple Music Player</h2>
+    <p>Press play to listen!</p>
+    <audio controls>
+        <source src="Music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</section>
+
+
+<section>
+    <h2>HTML Links Syntax</h2>
+    <p>The most important attribute of the <a> element is the href attribute, which indicates the link's destination.The link text is the part that will be visible to the reader.
+Clicking on the link text, will send the reader to the specified URL address.</p>
+    <p>This tutorial will help you get started with the basics of HTML</p>
+
+    <h2>Link Tutorial</h2>
+    <img src="Link.jpg" alt="Link.jpg" width="300">
+    
+  
+</section>
+   <!DOCTYPE html>
+<html>
+<style>
+    
+    .myImg { margin-top: 20px; height: 250px; width: 320px; filter: drop-shadow(-10px -10px 10px #9E7BFF); } body { margin-left: 10px; }  
+    
+    h1 {
+            font-size: 50px;
+            background: -webkit-linear-gradient(rgb(255, 153, 255), rgb(204, 204, 255));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    
+    img {
+        border-radius: 40px;
+        border: 5px solid #E0B0FF;
+        }
+        body{
+            background color: url('pink');
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    
+    
+    #myImage {
+        width: 200px;
+        height: 150px;
+        float: left;
+      }
+      
+       
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted #DCD0FF;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: #CCCCFF;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #ff892bb5 transparent transparent transparent;
+}
+
+    
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+</style>
+<body>
+ <center>
+ 
+ 
+   <img
+   id="myImage" 
+   src="html.jpg" alt="HTML" height="100" class="myImg">
+ 
+   <div class="tooltip" style="font-family:monospace">Click this for a short description about the hmtl<span class="tooltiptext" style="font-family:monospace"><p>HTML (Hypertext Markup Language) is the standard language used to create and design webpages. It consists of a series of elements that structure content on the web. Each element is enclosed in "tags" that tell the browser how to display content.</p></span> </div> 
+   
+   <img
+   id="myImage" 
+   
+   src="name.jpg" alt="centered image" height="100" class="myImg">
+   <div class="tooltip" style="font-family:monospace">Click this for a short description about the form<span class="tooltiptext" style="font-family:monospace">.<p>
+The element is used to group related data in a form.
+
+The  element defines a caption for the  element</p></span></div>
+   
+   
+   <img
+   id="myImage" 
+   src="color.jpg" alt="300" height="100" class="myImg">
+   <div class="tooltip" style="font-family:monospace">Click this for a short description about the Text Color<span class="tooltiptext" style="font-family:monospace"><p>Text Color
+The CSS color property defines the text color for an HTML element:</p></span> </div>
+   
+   <img
+   id="myImage" 
+   src="size.jpg" alt="" height="100" class="myImg">
+   <div class="tooltip"   style="font-family:monospace">Click this for a  short description about the text size<span class="tooltiptext"><p>Text Size
+The CSS font-size property defines the text size for an HTML element:</p></span> </div>
+   
+   <img
+   id="myImage" 
+   src="font.jpg" alt="" height="100" class="myImg">
+   <div class="tooltip" style="font-family:monospace">Click this for a short description about the font<span class="tooltiptext"><p>Fonts
+The CSS font-family property defines the font to be used for an HTML element:</p></span> </div>
+ 
+</center>
+</body>
+</html>
+<section>
+ 
+ <h1>Reflection</h1>
+       <div class="tooltip" style="font-family:monospace">for me it's hard to make websites especially coding but I try my best to do it the practice pages that were developed helped in the understanding of HTML and coordinated with the reading very well as a matter of fact I even became fun i would find myself going over different options and choices and actually understanding HTML.</div>
+<footer>
+    <p>Joylene Camancho </p>
+</footer>
+
+</body>
+</html>
